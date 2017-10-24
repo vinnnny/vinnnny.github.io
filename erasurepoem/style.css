@@ -1,0 +1,25 @@
+h1 {
+			font-family: "Helvetica Neue", Arial, monospace;
+			background: red;
+			font-size: 50px;
+		}
+		 p {
+		 	font-family: "Helvetica Neue", Arial, monospace;
+			font-size: 20px;
+			line-height: 25px;
+			letter-spacing: 1px;
+			
+		}
+		.pgraph:hover { color: white;
+
+		}
+
+		.werd:hover {
+			background: red;
+			color: black;
+			font-family: "Helvetica Neue", Arial, monospace;
+			font-size: 20px;
+			line-height: 25px;
+			letter-spacing: 1px;
+
+		}
