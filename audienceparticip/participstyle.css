@@ -1,0 +1,15 @@
+
+h1 {
+	font-family: "Helvetica Neue", Arial, monospace;
+	font-size: 50px;
+}
+p {
+	font-family: "Helvetica Neue", Arial, monospace;
+	font-size: 20px;
+	line-height: 25px;
+	letter-spacing: 1px;
+
+}
+ .fade:hover {
+ 	opacity: .5;
+ }
