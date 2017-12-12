@@ -13,6 +13,7 @@ h1 {
 }
 
 p {
+	background-image: url("ocean.jpg");
 	font-family: "Optima", Arial, sans-serif; 	
 	background-image: rgb(180,200,240, 65%)
 	font-size: 60px;

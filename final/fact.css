@@ -1,0 +1,105 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.txt {
+  margin: 10px;
+ font-family: "garamound", serif;
+ font-size: 50px;
+ text-align: center;
+
+}
+
+.bg {
+    z-index: 1 ;
+    /* The image used */
+
+    background-image: url("bluesky.png");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     background-attachment: fixed;
+      overflow:scroll; 
+}
+
+
+#bluesky {
+  text-align: center;
+margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+z-index: 2;
+position: relative;
+}
+
+
+#cow1 {
+  z-index: 5;
+
+  width: 200px;
+  position: relative;
+  top: 370px;
+  left: 20px;
+
+}
+
+
+#cow2 {
+    z-index: 6;
+
+  width: 200px;
+  position: relative;
+  top: 360px;
+  left: 300px;
+
+}
+
+#cow3 {
+    z-index: 7;
+
+  width: 160px;
+  position: relative;
+  top: 190px;
+  left: -160px;
+
+}
+
+
+#cow4 {
+    z-index: 8;
+
+  width: 135px;
+  position: relative;
+  top: 150px;
+  left: 60px;
+
+}
+
+#pasture {
+   position: relative;
+   margin: 0 auto;
+
+z-index: 4;
+  width: 100%;
+}
+
+
+#crop {
+  z-index: 3;
+width: 100%;
+ position: absolute;
+ top: 100;
+
+
+}
+
+
+.fade:hover {
+  opacity: .5;
+ }

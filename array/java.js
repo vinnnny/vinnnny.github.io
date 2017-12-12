@@ -12,6 +12,9 @@ var container = document.querySelector(".output ul")
 // 	console.log(nameArray[i])
 // }
 
+
+
+
 eveningArray.forEach(buildboxes);
 
 function buildboxes(individual, number) {
@@ -29,19 +32,26 @@ var list = document.querySelectorAll(".wrapper")
 
 console.log(list)
 
-
 list.forEach(listen)
 
+
 function listen(individual, number) {
-	el.addEventListener("mouseover", function(changecolor))
+	individual.addEventListener("mouseover", mouseappear)
 }
 
-function changecolor(individual, number) {
-	
-	document.getElementById("element" + number).style.visibility="hidden"
+function mouseappear(event){
+	console.log(event.target.id)
+	document.getElementById("#" + "event.target.id").style.visibility="visible"
+	}
 
 
-}
+
+
+
+
+
+
+
 
 
 
